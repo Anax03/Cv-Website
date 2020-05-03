@@ -1,0 +1,15 @@
+.container {
+  flex-direction: column;
+}
+
+.aPropos {
+  margin-bottom: 4rem;
+}
+
+.grid {
+  gap: 1rem;
+}
+
+.part2 {
+  margin-left: 1rem;
+}

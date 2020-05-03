@@ -1,0 +1,245 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;1,100&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+
+/* Variables */
+:root {
+  --font: 'Roboto', sans-serif;
+  --font2: 'Open Sans', sans-serif;
+  --part1-color: #0288d1;
+  --font-color-part1: white;
+  --font-color-part2: black;
+  --background-h2: #424242;
+  --span-color: #db7093;
+}
+/* General */
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: var(--font);
+  line-height: 1.4;
+}
+.container {
+  display: flex;
+}
+
+ul {
+  list-style: none;
+}
+
+.lois {
+  /* Icons loisires */
+  font-size: 3rem;
+}
+.anas {
+  /* Span mon prenom */
+  color: var(--span-color);
+}
+
+.format {
+  /* Style  Formation , Experience , recommandation */
+  width: 90%;
+  margin-top: 2rem;
+}
+
+.inlineF,
+.gradLogo i {
+  /* Icon alignment de Formation , Experience , recommandation */
+  display: inline-block;
+  margin: 1rem;
+}
+.inlineF {
+  /* Titre Formation,experience,recommandation  */
+  font-size: 2rem;
+  font-weight: bolder;
+  text-transform: uppercase;
+}
+
+.gradLogo {
+  /* Icon border bottom Formation,experience,recommandation  */
+  border-bottom: 2px solid var(--span-color);
+}
+
+/* Grad Logo */
+.gradLogo i {
+  /* Icon color/size Formation,experience,recommandation  */
+  color: var(--span-color);
+  font-size: 2rem;
+}
+
+.unique {
+  /* Contact , A propos style , Loisir style*/
+  text-align: center;
+  background: var(--background-h2);
+  padding: 0.5rem 1rem;
+  margin-bottom: 2rem;
+}
+
+/*  Part 1 */
+.part1 {
+  flex: 1;
+  background: var(--part1-color);
+  color: var(--font-color-part1);
+}
+/* Avatar */
+.image {
+  padding: 2rem;
+  text-align: center;
+}
+.image img {
+  height: 8rem;
+  width: 8rem;
+  border-radius: 50%;
+  border: 3px solid rgba(0, 0, 0, 0.1);
+}
+
+/* List Contact */
+.contactMe {
+  margin-bottom: 3rem;
+}
+#List-contact {
+  margin-left: 2rem;
+}
+
+#List-contact li:nth-child(even) {
+  margin-bottom: 1rem;
+}
+/* A propos de Moi */
+.aPropos {
+  margin-bottom: 70rem;
+}
+#paraPropos {
+  padding: 0 1rem;
+}
+/* Loisires */
+.loisirs {
+  margin-bottom: 2rem;
+}
+.icons {
+  width: 80%;
+  margin: auto;
+  display: flex;
+  justify-content: space-between;
+}
+/*  Part 2 */
+.part2 {
+  margin-left: 5rem;
+  flex: 3;
+  color: var(--font-color-part2);
+}
+
+/* Name  */
+.name {
+  padding: 2rem;
+}
+.name h1 {
+  font-size: 3rem;
+}
+.name h3 {
+  font-size: 2rem;
+}
+.devl {
+  border-bottom: 1px solid var(--span-color);
+}
+
+/* Formation */
+
+/* Circle */
+
+.circle {
+  position: relative;
+  border: 1px solid #db7093;
+  width: 1rem;
+  height: 1rem;
+  border-radius: 50%;
+}
+
+.bg {
+  background: #db7093;
+}
+.Point:before {
+  border-radius: 50%;
+  position: absolute;
+  top: 0.2rem;
+  left: 0.2rem;
+  content: '';
+  width: 45%;
+  height: 50%;
+  background: #db7093;
+}
+
+/* Grid */
+.grid {
+  margin-top: 2rem;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+.part2 p {
+  font-family: var(--font2);
+}
+
+.info,
+.description {
+  margin-bottom: 2rem;
+}
+
+.info div,
+.description h2,
+.description h3 {
+  margin-bottom: 1rem;
+}
+
+.description h2 {
+  font-weight: bolder;
+  font-size: 2rem;
+}
+
+/* Annes Formation */
+.oc:after {
+  font-weight: bolder;
+  content: '2020';
+  margin-left: 2rem;
+}
+
+.microsoft:after {
+  font-weight: bolder;
+  content: '2019';
+  margin-left: 2rem;
+}
+
+.coursera:after {
+  font-weight: bolder;
+  content: '2019';
+  margin-left: 2rem;
+}
+.bac:after {
+  font-weight: bolder;
+  content: '2013';
+  margin-left: 2rem;
+}
+
+/* Annes Experience */
+
+.freelance:after {
+  font-weight: bolder;
+  content: '2017/2019';
+  margin-left: 2rem;
+}
+.plongeur:after {
+  font-weight: bolder;
+  content: '2016';
+  margin-left: 2rem;
+}
+.vendeur:after {
+  font-weight: bolder;
+  content: '2013/2015';
+  margin-left: 2rem;
+}
+
+/* Rcommendation */
+.recommandations ul {
+  padding: 2rem;
+  font-family: var(--font2);
+}
