@@ -1,4 +1,5 @@
 .container {
+  /* Transformer contenu column */
   flex-direction: column;
 }
 
