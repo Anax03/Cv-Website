@@ -25,6 +25,10 @@ body {
   display: flex;
 }
 
+.mobile {
+  display: none;
+}
+
 ul {
   list-style: none;
 }
@@ -131,13 +135,13 @@ ul {
 }
 
 /* Name  */
-.name {
+.pc {
   padding: 2rem;
 }
-.name h1 {
+.pc h1 {
   font-size: 3rem;
 }
-.name h3 {
+.pc h3 {
   font-size: 2rem;
 }
 .devl {
