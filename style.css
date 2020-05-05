@@ -107,7 +107,7 @@ ul {
   margin-left: 2rem;
 }
 
-#List-contact li:nth-child(even) {
+#List-contact li {
   margin-bottom: 1rem;
 }
 /* A propos de Moi */
