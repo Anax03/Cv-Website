@@ -10,14 +10,7 @@
   box-sizing: border-box;
 }
 body {
-  --font: 'Roboto', sans-serif;
-  --font2: 'Open Sans', sans-serif;
-  --part1-color: #0288d1;
-  --font-color-part1: white;
-  --font-color-part2: black;
-  --background-h2: #424242;
-  --span-color: #db7093;
-  font-family: var(--font);
+  font-family: 'Roboto', sans-serif;
   line-height: 1.4;
 }
 .container {
@@ -38,7 +31,7 @@ ul {
 }
 .anas {
   /* Span mon prenom */
-  color: var(--span-color);
+  color: #db7093;
 }
 
 .format {
@@ -59,25 +52,25 @@ ul {
   font-size: 2rem;
   font-weight: bolder;
   text-transform: uppercase;
-  font-family: var(--font2);
+  font-family: 'Open Sans', sans-serif;
 }
 
 .gradLogo {
   /* Icon border bottom Formation,experience,recommandation  */
-  border-bottom: 2px solid var(--span-color);
+  border-bottom: 2px solid #db7093;
 }
 
 /* Grad Logo */
 .gradLogo i {
   /* Icon color/size Formation,experience,recommandation  */
-  color: var(--span-color);
+  color: #db7093;
   font-size: 2rem;
 }
 
 .unique {
   /* Contact , A propos style , Loisir style*/
   text-align: center;
-  background: var(--background-h2);
+  background: #424242;
   padding: 0.5rem 1rem;
   margin-bottom: 2rem;
 }
@@ -85,8 +78,8 @@ ul {
 /*  Part 1 */
 .part1 {
   flex: 1;
-  background: var(--part1-color);
-  color: var(--font-color-part1);
+  background: #0288d1;
+  color: white;
 }
 /* Avatar */
 .image {
@@ -132,7 +125,7 @@ ul {
 .part2 {
   margin-left: 5rem;
   flex: 3;
-  color: var(--font-color-part2);
+  color: black;
 }
 
 /* Name   */
@@ -146,7 +139,7 @@ ul {
   font-size: 2rem;
 }
 .devl {
-  border-bottom: 1px solid var(--span-color);
+  border-bottom: 1px solid #db7093;
 }
 
 /* Formation */
@@ -184,7 +177,7 @@ ul {
   grid-template-columns: 1fr 1fr;
 }
 .part2 p {
-  font-family: var(--font2);
+  font-family: 'Open Sans', sans-serif;
 }
 
 .info,
@@ -202,7 +195,7 @@ ul {
   text-transform: uppercase;
   font-weight: bolder;
   font-size: 1.5rem;
-  font-family: var(--font2);
+  font-family: 'Open Sans', sans-serif;
 }
 
 /* Annes Formation */
@@ -250,7 +243,7 @@ ul {
 /* Rcommendation */
 .recommandations ul {
   padding: 2rem;
-  font-family: var(--font2);
+  font-family: 'Open Sans', sans-serif;
 }
 
 .ula li:first-child,
