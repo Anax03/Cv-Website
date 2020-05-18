@@ -51,7 +51,7 @@ ul {
 .gradLogo i {
   /* Icon alignment de Formation , Experience , recommandation */
   display: inline-block;
-  margin: 1rem;
+  margin-left: 1rem;
   font-weight: bold;
 }
 .inlineF {
