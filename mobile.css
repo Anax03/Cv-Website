@@ -12,7 +12,7 @@
 }
 
 .part2 {
-  margin-left: 1rem;
+  margin-left: 0.8rem;
 }
 
 .description h2 {
@@ -41,4 +41,31 @@
 
 .mobile h3 {
   font-size: 1.5rem;
+}
+
+.inlineF,
+.gradLogo i {
+  /* Icon alignment de Formation , Experience , recommandation */
+  display: inline-block;
+  margin: 0.2rem;
+}
+
+.inlineF {
+  font-size: 1.2rem;
+  font-weight: bolder;
+  font-family: var(--font2);
+}
+
+.description h2 {
+  font-size: 1rem;
+  font-family: var(--font2);
+}
+
+.ula {
+  font-size: 0.9rem;
+  margin-bottom: 1rem;
+}
+
+.exp {
+  font-size: 1rem;
 }
